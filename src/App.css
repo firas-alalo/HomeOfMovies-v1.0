@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+ .App-header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+ }
+
+ .navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2.4em;
+ }
+
+ .link {
+  margin: 5%;
+  font-weight: bold;
+ }
+
+
