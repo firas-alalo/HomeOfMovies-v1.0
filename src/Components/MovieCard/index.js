@@ -5,15 +5,16 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 
+
 export default function MovieCard(props) {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 300 }}>
       <CardActionArea>
         <CardMedia
           component="img"
-          height="140"
+          height="400"
           image={props.image}
-          alt="green iguana"
+          alt=""
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
@@ -32,3 +33,5 @@ export default function MovieCard(props) {
     </Card>
   );
 }
+
+

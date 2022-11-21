@@ -46,15 +46,55 @@
  }
 
  .navigation {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin-top: 2.4em;
+  margin: auto;
+  display: flex;
+  padding: 1% 10% 5% 10%;
+  flex-wrap: wrap;
+  justify-content: space-between;
  }
 
  .link {
-  margin: 5%;
-  font-weight: bold;
+  margin: 2%;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px rgba(0,0,0,50);
+  text-decoration: none;
  }
 
+.center {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px rgba(0,0,0,50);
 
+}
+
+.cardsComponents {
+  margin: auto;
+  display: flex;
+  padding: 1% 10% 5% 10%;
+  height: 150vh;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.welcomeText {
+  text-align: center;
+  color: rgb(180, 180, 180);
+  font-size: 60px;
+  text-shadow: 5px 5px rgba(0,0,0,50);
+}
+
+.welcomeTextSub {
+  text-align: center;
+  color: blanchedalmond;
+  font-size: 30px;
+  text-shadow: 3px 3px rgba(0,0,0,50);
+}
+
+.steps {
+  text-align: center;
+  color: rgb(209, 255, 216);
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 2px 2px rgba(0,0,0,50);
+}

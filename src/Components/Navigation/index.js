@@ -4,7 +4,6 @@ import '../../App.css';
 export default function Navigation () {
   return (
 <div className={"navigation"}>
-        <div>
             <Link className={"link"} to="/">Home</Link>
             <Link className={"link"} to="/action">Action</Link>
             <Link className={"link"} to="/comedy">Comedy</Link>
@@ -15,7 +14,6 @@ export default function Navigation () {
             <Link className={"link"} to="/crime">Crime</Link>
             <Link className={"link"} to="/documentary">Documentary</Link>
             <Link className={"link"} to="/horror">Horror</Link>
-        </div>
     </div>
   )
 };
