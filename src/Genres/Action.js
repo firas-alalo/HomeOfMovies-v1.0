@@ -25,6 +25,7 @@ function ActionPage() {
         {actionMovies.data.entries.map((e, i) => {
           return (
             <Col xs={{ maxWidth: "330px" }}>
+
               <MovieCard
                 title={e.title}
                 // description={e.description}
@@ -32,6 +33,7 @@ function ActionPage() {
                   e.plprogram$thumbnails[Object.keys(e.plprogram$thumbnails)[0]].plprogram$url
                 }
               />
+              
             </Col>
           );
         })}

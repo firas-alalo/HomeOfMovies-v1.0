@@ -10,21 +10,26 @@ export default function MovieCard(props) {
   return (
     <Card sx={{ maxWidth: 300 }}>
       <CardActionArea>
+        
         <CardMedia
           component="img"
           height="400"
           image={props.image}
           alt=""
         />
+
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
             {props.title}
           </Typography>
+          
           <Typography variant="body2" color="text.secondary">
             {props.description}
           </Typography>
         </CardContent>
+
       </CardActionArea>
+
       <CardActions>
         <Button size="small" color="primary">
           View
@@ -33,5 +38,3 @@ export default function MovieCard(props) {
     </Card>
   );
 }
-
-
